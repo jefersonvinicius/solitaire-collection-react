@@ -1,0 +1,22 @@
+.remove-pyramid-card-animation-right {
+  animation-name: remove-pyramid-card-animation-right;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.remove-pyramid-card-animation-left {
+  animation-name: remove-pyramid-card-animation-left;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes remove-pyramid-card-animation-right {
+  25% {transform: translate(100px, -250px) rotate(1turn);}
+  100% {transform: translate(250px, 100vh) rotate(3turn);}
+}
+
+
+@keyframes remove-pyramid-card-animation-left {
+  25% {transform: translate(-100px, -200px) rotate(1turn);}
+  100% {transform: translate(-250px, 100vh) rotate(3turn);}
+}

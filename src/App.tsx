@@ -1,8 +1,7 @@
-import React from 'react';
 import Routes from 'routes';
+import 'css/globals.css';
+import 'css/animations.css';
 
-function App() {
+export default function App() {
   return <Routes />;
 }
-
-export default App;
